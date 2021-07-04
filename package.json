@@ -2,12 +2,36 @@
   "name": "@anooprav7/react-custom-hooks",
   "version": "0.1.0",
   "description": "Re-usable react custom hooks",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "keywords": [],
   "repository": "https://github.com/anooprav7/react-custom-hooks",
   "author": "Anoop Raveendran <anooprav7@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5",
+    "@testing-library/react-hooks": "^7.0.1",
+    "@types/jest": "^26.0.23",
+    "@types/react": "^17.0.13",
+    "@types/react-dom": "^17.0.8",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
 }
