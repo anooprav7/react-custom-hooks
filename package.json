@@ -1,12 +1,13 @@
 {
   "name": "@anooprav7/react-custom-hooks",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Re-usable react custom hooks",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Anoop Raveendran",
+  "repository": "https://github.com/anooprav7/react-custom-hooks",
+  "author": "Anoop Raveendran <anooprav7@gmail.com>",
   "license": "MIT"
 }
