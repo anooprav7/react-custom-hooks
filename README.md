@@ -24,3 +24,4 @@ yarn add @anooprav7/react-custom-hooks
 ### References used
 1. https://usehooks.com/
 2. https://github.com/nekogd/react-hook-npm-publish-boilerplate/blob/master/package.json
+3. https://jonbake.com/blog/2020/07/21/publishing-jest-code-coverage-github-pages.html
